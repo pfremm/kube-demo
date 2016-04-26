@@ -1,9 +1,9 @@
 ###Installation
 This will provide steps to install a local development kubernetes environment following the multi-node vagrant directions on [Kubernetes.io](http://kubernetes.io/).  The steps specified in the gist in step 4 only run on a mac.
 
-1. Install Virtualbox [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-2. Install Virtualbox Extensions [Virtualbox Extensions](http://download.virtualbox.org/virtualbox/5.0.18/Oracle_VM_VirtualBox_Extension_Pack-5.0.18-106667.vbox-extpack)
-3. Install Vagrant [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+1. Install Virtualbox [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+2. Install Virtualbox Extensions [http://download.virtualbox.org/virtualbox/5.0.18/Oracle_VM_VirtualBox_Extension_Pack-5.0.18-106667.vbox-extpack](http://download.virtualbox.org/virtualbox/5.0.18/Oracle_VM_VirtualBox_Extension_Pack-5.0.18-106667.vbox-extpack)
+3. Install Vagrant [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 4. In a terminal window run the following command:
 
     ``` shell
