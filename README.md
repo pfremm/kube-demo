@@ -6,7 +6,7 @@ This will provide steps to install a local development kubernetes environment fo
 3. Install Vagrant [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 4. In a terminal window run the following command:
     ```
-    nohup kubectl proxy --port=9090 &
+    ls -la
     ```
 5. After Step 4 completes run:
     ```
