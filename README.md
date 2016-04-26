@@ -20,7 +20,8 @@ This will provide steps to install a local development kubernetes environment fo
     /usr/bin/open -a "/Applications/Google Chrome.app" 'http://localhost:9090/api/v1/proxy/namespaces/kube-system/services/kubernetes-dashboard'
 
     ```
-* Quit the process for kube proxy port
+#### Quitting Kube Proxy
+1. Quit the process for kube proxy port
 
     ``` shell
     lsof -n -i4TCP:9090 | grep LISTEN | awk '{print $2}' | xargs kill
