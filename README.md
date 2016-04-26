@@ -21,6 +21,7 @@ This will provide steps to install a local development kubernetes environment fo
 
     ```
 * Quit the process for kube proxy port
+
     ``` shell
     lsof -n -i4TCP:9090 | grep LISTEN | awk '{print $2}' | xargs kill
     ```
