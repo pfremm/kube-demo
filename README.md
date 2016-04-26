@@ -21,7 +21,7 @@ This will provide steps to install a local development kubernetes environment fo
 
     ```
     
-###Quitting Kube Proxy
+####Quitting Kube Proxy
 1. Quit the process for kube proxy port
 
     ``` shell
